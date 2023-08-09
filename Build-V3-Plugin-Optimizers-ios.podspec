@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jérôme Morissard' => 'jerome.morissard@bryj.ai' }
-  s.source           = { :git => 'git@github.com:bryjai/build-v3-plugin-optimizers-ios.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:bryjai/build-v3-plugin-optimizers-ios.git', :branch => 'origin/feature/legacy-sdk-support' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.1'
