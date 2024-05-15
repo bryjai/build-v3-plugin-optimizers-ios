@@ -1,0 +1,6 @@
+framework module Pods_FASDKBuild_Plugin_Optimizers_ios_Example {
+  umbrella header "Pods-FASDKBuild-Plugin-Optimizers-ios_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+framework module FASDKBuild_ios {
+  umbrella header "FASDKBuild_ios.h"
+
+  export *
+  module * { export * }
+}
+
+module FASDKBuild_ios.Swift {
+  header "FASDKBuild_ios-Swift.h"
+  requires objc
+}
