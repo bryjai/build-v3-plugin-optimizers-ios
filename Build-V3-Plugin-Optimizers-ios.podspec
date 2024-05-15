@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
   s.version          = '1.0.0'
   s.summary          = 'Build-V3-Plugin-Optimizers-ios is a plugin capable of providing multiple ways to optimize the website experience.'
   s.description      = <<-DESC
-  Build-V3-Plugin-Optimizers-ios is a plugin capable of providing multiple ways to optimize the website experience.
-  Resource Blocking: The plugin is able to block the loading of some specific resources in the section webviews.
-  Lazy Loading: The plugin can try to force the lazy loading of the website images.
+  Build-V3-Plugin-Optimizers-ios is a plugin capable of providing multiple ways to optimize the website experience by providing the following functionality:
+  - Resource blocking: The plugin is able to block the loading of some specific resources in the section webviews.
+  - Lazy loading: The plugin can try to force the lazy loading of the website images.
                        DESC
   s.homepage         = 'https://github.com/bryjai/build-v3-plugin-optimizers-ios'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
