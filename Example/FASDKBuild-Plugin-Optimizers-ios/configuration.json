@@ -13,175 +13,179 @@
         "same_domain": "current_webview",
         "different_domain": "outside_of_app",
         "custom": [
-        {
-            "expression": "/textes-officiels-europeens-protection-donnees",
-            "match_type": "substring",
-            "presentation_mode": "outside_of_app"
-        },
-        {
-            "expression": "/cookies-les-outils-pour-les-maitriser",
-            "match_type": "substring",
-            "presentation_mode": "outside_of_app"
-        }
+            {
+                "expression": "/textes-officiels-europeens-protection-donnees",
+                "match_type": "substring",
+                "presentation_mode": "outside_of_app"
+            },
+            {
+                "expression": "/cookies-les-outils-pour-les-maitriser",
+                "match_type": "substring",
+                "presentation_mode": "outside_of_app"
+            }
         ]
     },
     "sections_loading": {
-      "default_section": 0,
-      "start_loading_order" : [
-          [0],
-          [1],
-          [2],
-          [3],
-          [4]
-        ]
+        "default_section": 0,
+        "start_loading_order": [[0], [1], [2], [3], [4]]
     },
-    "sections": [{
-        "title": "home",
-        "image": {
-            "type": "local",
-            "filename": "home"
+    "sections": [
+        {
+            "title": "home",
+            "image": {
+                "type": "local",
+                "filename": "home"
+            },
+            "active_image": {
+                "type": "local",
+                "filename": "home"
+            },
+            "url": "https://www.jennyfer.com/fr-fr/home",
+            "type": "url",
+            "loading_percentage_before_show": 60,
+            "allow_scroll_while_loading": true,
+            "show_transition_loader": true,
+            "pull_to_refresh": false,
+            "prevent_zooming": true,
+            "navigation_bar_buttons": {
+                "left_buttons": [],
+                "right_buttons": []
+            },
+            "web_content": {
+                "selectors_to_remove": [],
+                "scripts": [],
+                "css": []
+            },
+            "features": [],
+            "handles_urls": []
         },
-        "active_image": {
-            "type": "local",
-            "filename": "home"
+        {
+            "title": "account",
+            "image": {
+                "type": "local",
+                "filename": "home"
+            },
+            "active_image": {
+                "type": "local",
+                "filename": "home"
+            },
+            "url": "https://www.jennyfer.com/fr-fr/account",
+            "type": "url",
+            "loading_percentage_before_show": 60,
+            "allow_scroll_while_loading": true,
+            "show_transition_loader": true,
+            "pull_to_refresh": false,
+            "prevent_zooming": true,
+            "navigation_bar_buttons": {
+                "left_buttons": [],
+                "right_buttons": []
+            },
+            "web_content": {
+                "selectors_to_remove": [],
+                "scripts": [],
+                "css": []
+            },
+            "features": [],
+            "handles_urls": [
+                {
+                    "expression": "section=AccountInfos",
+                    "match_type": "substring"
+                }
+            ]
         },
-        "url": "https://www.jennyfer.com/fr-fr/home",
-        "type": "url",
-        "loading_percentage_before_show": 60,
-        "allow_scroll_while_loading": true,
-        "show_transition_loader": true,
-        "pull_to_refresh": false,
-        "prevent_zooming": true,
-        "navigation_bar_buttons": {
-            "left_buttons": [],
-            "right_buttons": []
+        {
+            "title": "Home",
+            "image": {
+                "type": "local",
+                "filename": "home"
+            },
+            "active_image": {
+                "type": "local",
+                "filename": "home"
+            },
+            "url": "https://www.jennyfer.com/",
+            "type": "url",
+            "loading_percentage_before_show": 60,
+            "allow_scroll_while_loading": true,
+            "show_transition_loader": true,
+            "pull_to_refresh": false,
+            "prevent_zooming": true,
+            "navigation_bar_buttons": {
+                "left_buttons": [],
+                "right_buttons": []
+            },
+            "web_content": {
+                "selectors_to_remove": [],
+                "scripts": [],
+                "css": []
+            },
+            "features": [],
+            "handles_urls": []
         },
-        "web_content": {
-            "selectors_to_remove": [],
-            "scripts": [],
-            "css": []
+        {
+            "title": "stores",
+            "image": {
+                "type": "local",
+                "filename": "home"
+            },
+            "active_image": {
+                "type": "local",
+                "filename": "home"
+            },
+            "url": "https://www.jennyfer.com/fr-fr/stores",
+            "type": "url",
+            "loading_percentage_before_show": 60,
+            "allow_scroll_while_loading": true,
+            "show_transition_loader": true,
+            "pull_to_refresh": false,
+            "prevent_zooming": true,
+            "navigation_bar_buttons": {
+                "left_buttons": [],
+                "right_buttons": []
+            },
+            "web_content": {
+                "selectors_to_remove": [],
+                "scripts": [],
+                "css": []
+            },
+            "features": [],
+            "handles_urls": []
         },
-        "features": [],
-        "handles_urls": []
-    }, {
-        "title": "account",
-        "image": {
-            "type": "local",
-            "filename": "home"
-        },
-        "active_image": {
-            "type": "local",
-            "filename": "home"
-        },
-        "url": "https://www.jennyfer.com/fr-fr/account",
-        "type": "url",
-        "loading_percentage_before_show": 60,
-        "allow_scroll_while_loading": true,
-        "show_transition_loader": true,
-        "pull_to_refresh": false,
-        "prevent_zooming": true,
-        "navigation_bar_buttons": {
-            "left_buttons": [],
-            "right_buttons": []
-        },
-        "web_content": {
-            "selectors_to_remove": [],
-            "scripts": [],
-            "css": []
-        },
-        "features": [],
-        "handles_urls": [{
-            "expression": "section=AccountInfos",
-            "match_type": "substring"
-        }]
-    }, {
-        "title": "Home",
-        "image": {
-            "type": "local",
-            "filename": "home"
-        },
-        "active_image": {
-            "type": "local",
-            "filename": "home"
-        },
-        "url": "https://www.jennyfer.com/",
-        "type": "url",
-        "loading_percentage_before_show": 60,
-        "allow_scroll_while_loading": true,
-        "show_transition_loader": true,
-        "pull_to_refresh": false,
-        "prevent_zooming": true,
-        "navigation_bar_buttons": {
-            "left_buttons": [],
-            "right_buttons": []
-        },
-        "web_content": {
-            "selectors_to_remove": [],
-            "scripts": [],
-            "css": []
-        },
-        "features": [],
-        "handles_urls": []
-    }, {
-        "title": "stores",
-        "image": {
-            "type": "local",
-            "filename": "home"
-        },
-        "active_image": {
-            "type": "local",
-            "filename": "home"
-        },
-        "url": "https://www.jennyfer.com/fr-fr/stores",
-        "type": "url",
-        "loading_percentage_before_show": 60,
-        "allow_scroll_while_loading": true,
-        "show_transition_loader": true,
-        "pull_to_refresh": false,
-        "prevent_zooming": true,
-        "navigation_bar_buttons": {
-            "left_buttons": [],
-            "right_buttons": []
-        },
-        "web_content": {
-            "selectors_to_remove": [],
-            "scripts": [],
-            "css": []
-        },
-        "features": [],
-        "handles_urls": []
-    }, {
-        "title": "cart",
-        "image": {
-            "type": "local",
-            "filename": "home"
-        },
-        "active_image": {
-            "type": "local",
-            "filename": "home"
-        },
-        "url": "https://www.jennyfer.com/fr-fr/cart",
-        "type": "url",
-        "loading_percentage_before_show": 60,
-        "allow_scroll_while_loading": true,
-        "show_transition_loader": true,
-        "pull_to_refresh": false,
-        "prevent_zooming": true,
-        "navigation_bar_buttons": {
-            "left_buttons": [],
-            "right_buttons": []
-        },
-        "web_content": {
-            "selectors_to_remove": [],
-            "scripts": [],
-            "css": []
-        },
-        "features": [{
-            "type": "cart",
-            "show_0": false
-        }],
-        "handles_urls": []
-    }],
+        {
+            "title": "cart",
+            "image": {
+                "type": "local",
+                "filename": "home"
+            },
+            "active_image": {
+                "type": "local",
+                "filename": "home"
+            },
+            "url": "https://www.jennyfer.com/fr-fr/cart",
+            "type": "url",
+            "loading_percentage_before_show": 60,
+            "allow_scroll_while_loading": true,
+            "show_transition_loader": true,
+            "pull_to_refresh": false,
+            "prevent_zooming": true,
+            "navigation_bar_buttons": {
+                "left_buttons": [],
+                "right_buttons": []
+            },
+            "web_content": {
+                "selectors_to_remove": [],
+                "scripts": [],
+                "css": []
+            },
+            "features": [
+                {
+                    "type": "cart",
+                    "show_0": false
+                }
+            ],
+            "handles_urls": []
+        }
+    ],
     "login": {
         "enable_form_detection": true,
         "pre_fill_username": true,

@@ -6,8 +6,8 @@
 //  Copyright (c) 2022 Jérôme Morissard. All rights reserved.
 //
 
-import UIKit
 import FASDKBuild_ios
+import UIKit
 
 @UIApplicationMain
 class AppDelegate: FABaseAppDelegate {
@@ -17,5 +17,4 @@ class AppDelegate: FABaseAppDelegate {
         window?.makeKeyAndVisible()
         return true
     }
-
 }

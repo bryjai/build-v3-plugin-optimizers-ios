@@ -16,7 +16,6 @@
 			dependencies = (
 			);
 			name = "FASDKBuild-ios";
-			productName = "FASDKBuild-ios";
 		};
 /* End PBXAggregateTarget section */
 
@@ -82,7 +81,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F1C24463974135B512FFD22C32958EA /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = "Build-V3-Plugin-Optimizers-ios/Assets/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		0F1C24463974135B512FFD22C32958EA /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "Build-V3-Plugin-Optimizers-ios/Assets/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
 		1A9D16CB6DBF410CE58C3178F7AD8C35 /* Build-V3-Plugin-Optimizers-ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Build-V3-Plugin-Optimizers-ios-prefix.pch"; sourceTree = "<group>"; };
 		1D5876E9E2A4EDE01DBBCA92E1AA9877 /* FASDKBuild-ios-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FASDKBuild-ios-xcframeworks.sh"; sourceTree = "<group>"; };
 		2229416139D8C9099BDACA07E119F5D0 /* Pods-FASDKBuild-Plugin-Optimizers-ios_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FASDKBuild-Plugin-Optimizers-ios_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -97,35 +96,35 @@
 		3EA9F5A0D1955E8733DD421483CB2DEC /* Pods-FASDKBuild-Plugin-Optimizers-ios_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FASDKBuild-Plugin-Optimizers-ios_Tests-Info.plist"; sourceTree = "<group>"; };
 		54871320B795A59EEC582D91509F115F /* ResourceBlocker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResourceBlocker.swift; path = "Build-V3-Plugin-Optimizers-ios/Classes/ResourceBlocker.swift"; sourceTree = "<group>"; };
 		55143417C2E6AE9C4125640D25BABD0C /* Build-V3-Plugin-Optimizers-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Build-V3-Plugin-Optimizers-ios.debug.xcconfig"; sourceTree = "<group>"; };
-		56A79ECEA8D7539BC92E9EE7F589ED11 /* lazysizes.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = lazysizes.js; path = "Build-V3-Plugin-Optimizers-ios/Assets/lazysizes.js"; sourceTree = "<group>"; };
+		56A79ECEA8D7539BC92E9EE7F589ED11 /* lazysizes.js */ = {isa = PBXFileReference; includeInIndex = 1; name = lazysizes.js; path = "Build-V3-Plugin-Optimizers-ios/Assets/lazysizes.js"; sourceTree = "<group>"; };
 		57D226AECC513C2174AC86AE7552FD91 /* OptimizersPlugin+FAPluginSectionViewControllerLifeCycleDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OptimizersPlugin+FAPluginSectionViewControllerLifeCycleDelegate.swift"; path = "Build-V3-Plugin-Optimizers-ios/Classes/OptimizersPlugin+FAPluginSectionViewControllerLifeCycleDelegate.swift"; sourceTree = "<group>"; };
-		5B5F6847EF0F43C09A2ACED7AF1D21D0 /* FASDKBuild_ios.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = FASDKBuild_ios.xcframework; sourceTree = "<group>"; };
+		5B5F6847EF0F43C09A2ACED7AF1D21D0 /* FASDKBuild_ios.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = FASDKBuild_ios.xcframework; sourceTree = "<group>"; };
 		6C74EEAE15D024217A7B8034489F43E0 /* Pods-FASDKBuild-Plugin-Optimizers-ios_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FASDKBuild-Plugin-Optimizers-ios_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		71D76AA306B80D1A12475E6223549FCD /* Pods-FASDKBuild-Plugin-Optimizers-ios_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FASDKBuild-Plugin-Optimizers-ios_Example"; path = Pods_FASDKBuild_Plugin_Optimizers_ios_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		751AE33066298FD7150840E9D13ADB3F /* Build-V3-Plugin-Optimizers-ios.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "Build-V3-Plugin-Optimizers-ios.podspec"; sourceTree = "<group>"; tabWidth = 2; };
+		751AE33066298FD7150840E9D13ADB3F /* Build-V3-Plugin-Optimizers-ios.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "Build-V3-Plugin-Optimizers-ios.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		75BD4D2B03E280EB46F333BA8E4B38E3 /* Pods-FASDKBuild-Plugin-Optimizers-ios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FASDKBuild-Plugin-Optimizers-ios_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7DC2D921F3A53D13AAE7B7C9DD630503 /* Pods-FASDKBuild-Plugin-Optimizers-ios_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FASDKBuild-Plugin-Optimizers-ios_Example.modulemap"; sourceTree = "<group>"; };
-		7E08D0EE7410D1308D6D5859CAAAACC9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7E08D0EE7410D1308D6D5859CAAAACC9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		86B9F2883856411F122F4ACC757F3EAC /* Build-V3-Plugin-Optimizers-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Build-V3-Plugin-Optimizers-ios.release.xcconfig"; sourceTree = "<group>"; };
 		8B4AEB8D85A47FA6B1F6ABBDDD4B68F2 /* Build-V3-Plugin-Optimizers-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Build-V3-Plugin-Optimizers-ios.modulemap"; sourceTree = "<group>"; };
 		929D78C8AFDEB2525CB30A6871BA436A /* FASDKBuild-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FASDKBuild-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		935B25A11F379EEA7ADED308BE690B37 /* Pods-FASDKBuild-Plugin-Optimizers-ios_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FASDKBuild-Plugin-Optimizers-ios_Tests.modulemap"; sourceTree = "<group>"; };
 		957CEF491F7D1306598AC39CA221DF99 /* Build-V3-Plugin-Optimizers-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Build-V3-Plugin-Optimizers-ios-dummy.m"; sourceTree = "<group>"; };
 		9D918393F35F7D4652BCC59A807F83DE /* OptimizersPlugin+FAPluginSectionWebViewNavigationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OptimizersPlugin+FAPluginSectionWebViewNavigationDelegate.swift"; path = "Build-V3-Plugin-Optimizers-ios/Classes/OptimizersPlugin+FAPluginSectionWebViewNavigationDelegate.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AA6EBBE70FBD2285E99029DEDD2514AF /* interface_auto_lazzyload.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = interface_auto_lazzyload.js; path = "Build-V3-Plugin-Optimizers-ios/Assets/interface_auto_lazzyload.js"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA6EBBE70FBD2285E99029DEDD2514AF /* interface_auto_lazzyload.js */ = {isa = PBXFileReference; includeInIndex = 1; name = interface_auto_lazzyload.js; path = "Build-V3-Plugin-Optimizers-ios/Assets/interface_auto_lazzyload.js"; sourceTree = "<group>"; };
 		AAB129171A0BDAB3D9AF27C230D7BAC3 /* Pods-FASDKBuild-Plugin-Optimizers-ios_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FASDKBuild-Plugin-Optimizers-ios_Tests-dummy.m"; sourceTree = "<group>"; };
 		AD85B6901D6CBCE08BBCB58547FF6918 /* Build-V3-Plugin-Optimizers-ios-Build-V3-Plugin-Optimizers-ios */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Build-V3-Plugin-Optimizers-ios-Build-V3-Plugin-Optimizers-ios"; path = "Build-V3-Plugin-Optimizers-ios.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C0DF8AC2AFC0415E6EEC222FE3FED8 /* ContentRuleListStoreManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentRuleListStoreManager.swift; path = "Build-V3-Plugin-Optimizers-ios/Classes/ContentRuleListStoreManager.swift"; sourceTree = "<group>"; };
 		B4325C67683F32D01924A559A4008550 /* FASDKBuild-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FASDKBuild-ios.release.xcconfig"; sourceTree = "<group>"; };
 		C16726A68D1716BD1D3A253018A4D1D6 /* Pods-FASDKBuild-Plugin-Optimizers-ios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FASDKBuild-Plugin-Optimizers-ios_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C27C74D4B32E1D5063D0F34781E2A620 /* Build-V3-Plugin-Optimizers-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Build-V3-Plugin-Optimizers-ios-umbrella.h"; sourceTree = "<group>"; };
-		D4E65B108C3AD9F92C3EB28DE467FC34 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D4E65B108C3AD9F92C3EB28DE467FC34 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D5A1D6F91F0EBA1EE7AE271407BFA462 /* Pods-FASDKBuild-Plugin-Optimizers-ios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FASDKBuild-Plugin-Optimizers-ios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DE0A99F53611E29EE9610E699B1A7159 /* Pods-FASDKBuild-Plugin-Optimizers-ios_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FASDKBuild-Plugin-Optimizers-ios_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E0F49552DB780B5CA9C6023B46C8666C /* OptimizersPlugin+constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OptimizersPlugin+constants.swift"; path = "Build-V3-Plugin-Optimizers-ios/Classes/OptimizersPlugin+constants.swift"; sourceTree = "<group>"; };
-		E22D139FB0EC1D488CFB07F5E0CF9336 /* interface_addEventListeners.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = interface_addEventListeners.js; path = "Build-V3-Plugin-Optimizers-ios/Assets/interface_addEventListeners.js"; sourceTree = "<group>"; };
+		E22D139FB0EC1D488CFB07F5E0CF9336 /* interface_addEventListeners.js */ = {isa = PBXFileReference; includeInIndex = 1; name = interface_addEventListeners.js; path = "Build-V3-Plugin-Optimizers-ios/Assets/interface_addEventListeners.js"; sourceTree = "<group>"; };
 		E425F05B0BF04F765CB0730E56CE5C07 /* Pods-FASDKBuild-Plugin-Optimizers-ios_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FASDKBuild-Plugin-Optimizers-ios_Example-umbrella.h"; sourceTree = "<group>"; };
 		E4F771BFAA3E6A3E2EEACA0B937AC615 /* Pods-FASDKBuild-Plugin-Optimizers-ios_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FASDKBuild-Plugin-Optimizers-ios_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E9027A978386D42F34A5083CA6CD2CC0 /* ResourceBundle-Build-V3-Plugin-Optimizers-ios-Build-V3-Plugin-Optimizers-ios-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Build-V3-Plugin-Optimizers-ios-Build-V3-Plugin-Optimizers-ios-Info.plist"; sourceTree = "<group>"; };
@@ -279,6 +278,7 @@
 				A5C5C1FB6366DD6A0E0534E59A55F98A /* Frameworks */,
 				DDCD53297C77C8A2D5E4F69006BB5E29 /* Support Files */,
 			);
+			name = "FASDKBuild-ios";
 			path = "FASDKBuild-ios";
 			sourceTree = "<group>";
 		};
@@ -848,7 +848,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
