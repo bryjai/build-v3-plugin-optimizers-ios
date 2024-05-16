@@ -1,6 +1,0 @@
-framework module Build_V3_Plugin_Optimizers_ios {
-  umbrella header "Build-V3-Plugin-Optimizers-ios-umbrella.h"
-
-  export *
-  module * { export * }
-}

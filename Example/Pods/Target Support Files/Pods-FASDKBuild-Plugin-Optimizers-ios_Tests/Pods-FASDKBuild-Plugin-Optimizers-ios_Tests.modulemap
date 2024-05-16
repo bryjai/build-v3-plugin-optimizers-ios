@@ -1,6 +1,0 @@
-framework module Pods_FASDKBuild_Plugin_Optimizers_ios_Tests {
-  umbrella header "Pods-FASDKBuild-Plugin-Optimizers-ios_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
