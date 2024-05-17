@@ -22,10 +22,10 @@ Optimizers is an analyzing Plugin to block resources on demands in the WebView o
 ### How to enable the plugin
 
 ```swift
-    override func getPlugins() -> [FABasePlugin] {
-        let optimizersPlugin = OptimizersPlugin()
-        return [optimizersPlugin]
-    }
+override func getPlugins() -> [FABasePlugin] {
+    let optimizersPlugin = OptimizersPlugin()
+    return [optimizersPlugin]
+}
 ```
 
 ### How to configure the plugin?
@@ -33,16 +33,16 @@ Optimizers is an analyzing Plugin to block resources on demands in the WebView o
 The Plugin supports addition of multiple blockers
 
 ```swift
-    override func getPlugins() -> [FABasePlugin] {
-        let optimizersPlugin = OptimizersPlugin()
+override func getPlugins() -> [FABasePlugin] {
+    let optimizersPlugin = OptimizersPlugin()
 
-        let analyticsFullBlocker = ResourceBlocker()
-        analyticsFullBlocker.moment = .everyTime
-        analyticsFullBlocker.resources = OptimizersPluginConstants.knownAnalytics
-        optimizersPlugin.blockers.append(analyticsFullBlocker)
+    let analyticsFullBlocker = ResourceBlocker()
+    analyticsFullBlocker.moment = .everyTime
+    analyticsFullBlocker.resources = OptimizersPluginConstants.knownAnalytics
+    optimizersPlugin.blockers.append(analyticsFullBlocker)
 
-        return [optimizersPlugin]
-    }
+    return [optimizersPlugin]
+}
 ```
 
 ### How to configure the plugin a resource blocker?
@@ -77,17 +77,17 @@ public class SectionResourceBlocker: ResourceBlocker {
 ```
 
 ```swift
-    override func getPlugins() -> [FABasePlugin] {
-        let optimizersPlugin = OptimizersPlugin()
+override func getPlugins() -> [FABasePlugin] {
+    let optimizersPlugin = OptimizersPlugin()
 
-        let sectionBlocker = SectionResourceBlocker()
-        sectionBlocker.sectionIndexes = [0, 1, 2]
-        sectionBlocker.moment = .everyTime
-        sectionBlocker.resources = OptimizersPluginConstants.knownAnalytics
-        optimizersPlugin.blockers.append(sectionBlocker)
+    let sectionBlocker = SectionResourceBlocker()
+    sectionBlocker.sectionIndexes = [0, 1, 2]
+    sectionBlocker.moment = .everyTime
+    sectionBlocker.resources = OptimizersPluginConstants.knownAnalytics
+    optimizersPlugin.blockers.append(sectionBlocker)
 
-        return [optimizersPlugin]
-    }
+    return [optimizersPlugin]
+}
 ```
 
 ## Author
