@@ -20,7 +20,7 @@
     },
     "sections": [
         {
-            "title": "home",
+            "title": "Home",
             "image": {
                 "type": "local",
                 "filename": "home"
