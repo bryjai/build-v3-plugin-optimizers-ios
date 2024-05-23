@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '14.0'
   s.swift_version = '5.0'
   s.source_files = 'Build-V3-Plugin-Optimizers-ios/Classes/*'
-  s.resource_bundles = {'Build-V3-Plugin-Optimizers-ios' => ['Build-V3-Plugin-Optimizers-ios/Assets/*.{js,xcprivacy}']}
+  s.resource_bundles = {'Build-V3-Plugin-Optimizers-ios' => ['Build-V3-Plugin-Optimizers-ios/Assets/*.{js}', 'PrivacyInfo.xcprivacy']}
   s.dependency 'FASDKBuild-ios', '>= 3.9.5'
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
