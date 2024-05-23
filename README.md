@@ -15,34 +15,34 @@ it, simply add the following line to your Podfile:
 pod 'Build-V3-Plugin-Optimizers-ios', :git => 'git@github.com:bryjai/build-v3-plugin-optimizers-ios.git'
 ```
 
-## Usage 
+## Usage
 
 Optimizers is an analyzing Plugin to block resources on demands in the WebView on the BuildSDK
 
-### How to enable the plugin 
+### How to enable the plugin
 
 ```swift
-    override func getPlugins() -> [FABasePlugin] {
-        let optimizersPlugin = OptimizersPlugin()
-        return [optimizersPlugin]
-    }
+override func getPlugins() -> [FABasePlugin] {
+    let optimizersPlugin = OptimizersPlugin()
+    return [optimizersPlugin]
+}
 ```
 
 ### How to configure the plugin?
 
-The Plugin supports addition of multiple blockers 
+The Plugin supports addition of multiple blockers
 
 ```swift
-    override func getPlugins() -> [FABasePlugin] {
-        let optimizersPlugin = OptimizersPlugin()
-                
-        let analyticsFullBlocker = ResourceBlocker()
-        analyticsFullBlocker.moment = .everyTime
-        analyticsFullBlocker.resources = OptimizersPluginConstants.knownAnalytics
-        optimizersPlugin.blockers.append(analyticsFullBlocker)
-        
-        return [optimizersPlugin]
-    }
+override func getPlugins() -> [FABasePlugin] {
+    let optimizersPlugin = OptimizersPlugin()
+
+    let analyticsFullBlocker = ResourceBlocker()
+    analyticsFullBlocker.moment = .everyTime
+    analyticsFullBlocker.resources = OptimizersPluginConstants.knownAnalytics
+    optimizersPlugin.blockers.append(analyticsFullBlocker)
+
+    return [optimizersPlugin]
+}
 ```
 
 ### How to configure the plugin a resource blocker?
@@ -51,8 +51,8 @@ Use the ResourceBlocker class/instance to block a **list of resources** during *
 
 ```swift
 public class ResourceBlocker {
-    public var moment = ResourceBlockerMoment.everyTime    
-    public var resources = [String]()    
+    public var moment = ResourceBlockerMoment.everyTime
+    public var resources = [String]()
 }
 ```
 
@@ -77,17 +77,17 @@ public class SectionResourceBlocker: ResourceBlocker {
 ```
 
 ```swift
-    override func getPlugins() -> [FABasePlugin] {
-        let optimizersPlugin = OptimizersPlugin()
-                
-        let sectionBlocker = SectionResourceBlocker()
-        sectionBlocker.sectionIndexes = [0, 1, 2]
-        sectionBlocker.moment = .everyTime
-        sectionBlocker.resources = OptimizersPluginConstants.knownAnalytics
-        optimizersPlugin.blockers.append(sectionBlocker)
-        
-        return [optimizersPlugin]
-    }
+override func getPlugins() -> [FABasePlugin] {
+    let optimizersPlugin = OptimizersPlugin()
+
+    let sectionBlocker = SectionResourceBlocker()
+    sectionBlocker.sectionIndexes = [0, 1, 2]
+    sectionBlocker.moment = .everyTime
+    sectionBlocker.resources = OptimizersPluginConstants.knownAnalytics
+    optimizersPlugin.blockers.append(sectionBlocker)
+
+    return [optimizersPlugin]
+}
 ```
 
 ## Author
