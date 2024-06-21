@@ -7,7 +7,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Build-V3-Plugin-Optimizers-ios'
-  s.version          = '1.0.0-beta.2'
+  s.version          = '1.0.0'
   s.summary          = 'Build-V3-Plugin-Optimizers-ios is a plugin capable of providing multiple ways to optimize the website experience.'
   s.description      = <<-DESC
   Build-V3-Plugin-Optimizers-ios is a plugin capable of providing multiple ways to optimize the website experience by providing the following functionality:
