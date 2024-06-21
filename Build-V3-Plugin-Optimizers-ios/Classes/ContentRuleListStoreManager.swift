@@ -1,9 +1,8 @@
 //
 //  ContentRuleListStoreManager.swift
-//  Build-V3-Plugin-Optimizers-ios
 //
 //  Created by Jérôme Morissard on 22/02/2023.
-//  Copyright © 2023 Bryj.ai. All rights reserved.
+//  Copyright © 2024 Bryj.ai. All rights reserved.
 //
 
 import Foundation
@@ -11,18 +10,18 @@ import WebKit
 
 class ContentRuleListStoreManager {
     static let shared = ContentRuleListStoreManager()
-    
+
     public var storedContentRuleList = [String: WKContentRuleList]()
 
     static func contentBlockingRules() -> String {
         return "PluginOptimizerContentBlockingRules"
     }
-    
+
     func key(forWebView: WKWebView) -> String {
         let address = "\(Unmanaged.passUnretained(forWebView).toOpaque())"
         return address
     }
-    
+
     func removeOptimizerContentRuleList(forWebView: WKWebView) {
         let key = key(forWebView: forWebView)
         if let r = storedContentRuleList[key] {
@@ -30,7 +29,7 @@ class ContentRuleListStoreManager {
             storedContentRuleList.removeValue(forKey: key)
         }
     }
-    
+
     func addOptimizerContentRuleLis(forWebView: WKWebView, toBlockResources: [String]) {
         WKContentRuleListStore.default()
             .compileContentRuleList(forIdentifier: ContentRuleListStoreManager.contentBlockingRules(), encodedContentRuleList: resourcesRules(resources: toBlockResources)) {
@@ -43,10 +42,10 @@ class ContentRuleListStoreManager {
                 }
             }
     }
-    
+
     func resourcesRules(resources: [String]) -> String {
         var rules = [String]()
-        
+
         for filter in resources {
             rules.append("""
                                 {
@@ -60,7 +59,7 @@ class ContentRuleListStoreManager {
                                 }
                     """)
         }
-        
+
         return "[\(rules.joined(separator: ","))]"
     }
 }
