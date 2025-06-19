@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jérôme Morissard' => 'jerome.morissard@bryj.ai' }
   s.source           = { :git => 'git@github.com:bryjai/build-v3-plugin-optimizers-ios.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '14.0'
+  s.ios.deployment_target = '16.0'
   s.swift_version = '5.0'
   s.source_files = 'Build-V3-Plugin-Optimizers-ios/Classes/**/*'
   s.resource_bundles = {'Build-V3-Plugin-Optimizers-ios' => ['Build-V3-Plugin-Optimizers-ios/Assets/*.{js}', 'PrivacyInfo.xcprivacy']}

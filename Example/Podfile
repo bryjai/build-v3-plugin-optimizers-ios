@@ -2,8 +2,6 @@ use_frameworks!
 
 platform :ios, '16.0'
 
-project 'Build-V3-Plugin-Optimizers-ios.xcodeproj'
-
 target 'Build-V3-Plugin-Optimizers-ios-Example' do
   pod 'Build-V3-Plugin-Optimizers-ios', :path => '../'
   pod 'FASDKBuild-ios', '3.9.8-beta.1828', :source => 'git@github.com:bryjai/bryj-build-private-pods.git'

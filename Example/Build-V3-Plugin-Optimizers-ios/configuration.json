@@ -54,7 +54,7 @@
         "pre_fill_username": true,
         "enable_biometrics": true,
         "persistent_login": true,
-        "target_logged_in_url": "https://www.jennyfer.com/fr-fr/account",
+        "target_logged_in_url": "https://www.cache-cache.fr/",
         "logged_in_state_check": {
             "check_type": "js_script",
             "script": ""
