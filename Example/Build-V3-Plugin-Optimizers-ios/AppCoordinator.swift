@@ -25,7 +25,7 @@ class AppCoordinator: FABaseAppCoordinator {
 
         optimizersPlugin.blockers.append(contentsOf: [analyticsBlocker])
         optimizersPlugin.lazyLoadingConfiguration.forceLazyLoading = true
-        optimizersPlugin.lazyLoadingConfiguration.classListToExclude.append(contentsOf: ["product-tile", "product-tile__preview"])
+        optimizersPlugin.lazyLoadingConfiguration.classListToExclude.append(contentsOf: ["tile-image"])
 
         return [optimizersPlugin]
     }
