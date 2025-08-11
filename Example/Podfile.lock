@@ -1,0 +1,24 @@
+PODS:
+  - Build-V3-Plugin-Optimizers-ios (1.0.2-beta.35):
+    - FASDKBuild-ios (~> 3.9.10)
+  - FASDKBuild-ios (3.9.10)
+
+DEPENDENCIES:
+  - Build-V3-Plugin-Optimizers-ios (from `../`)
+  - FASDKBuild-ios (= 3.9.10)
+
+SPEC REPOS:
+  "git@github.com:bryjai/bryj-build-private-pods.git":
+    - FASDKBuild-ios
+
+EXTERNAL SOURCES:
+  Build-V3-Plugin-Optimizers-ios:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Build-V3-Plugin-Optimizers-ios: 9a4dab9cb7c3b25d816d9489fc5d17bab6c065a5
+  FASDKBuild-ios: ba17cd6c9468fd429f18695a5b69a240a1b48222
+
+PODFILE CHECKSUM: 4e42b94d2b89f64a455844c2b963670e4ce74bde
+
+COCOAPODS: 1.15.2
