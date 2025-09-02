@@ -1,5 +1,5 @@
 PODS:
-  - Build-V3-Plugin-Optimizers-ios (1.0.2-beta.35):
+  - Build-V3-Plugin-Optimizers-ios (1.0.2-beta.44):
     - FASDKBuild-ios (~> 3.9.10)
   - FASDKBuild-ios (3.9.10)
 
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Build-V3-Plugin-Optimizers-ios: 9a4dab9cb7c3b25d816d9489fc5d17bab6c065a5
+  Build-V3-Plugin-Optimizers-ios: 6bba06759ec3902e863778eb6fd6308e99c9526d
   FASDKBuild-ios: ba17cd6c9468fd429f18695a5b69a240a1b48222
 
 PODFILE CHECKSUM: 4e42b94d2b89f64a455844c2b963670e4ce74bde
